@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD985"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/inputNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/inputUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/inputAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/inputAsalSekolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asal Sekolah"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/inputTmpLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Lahir"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/inputTglLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tangggal Lahir"
+        android:inputType="text"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:padding="10dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Nama : " />
+
+    <TextView
+        android:id="@+id/txtNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="NIK : " />
+
+    <TextView
+        android:id="@+id/txtUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Umur : " />
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Alamat : " />
+
+    <TextView
+        android:id="@+id/txtAsalSekolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Asal Sekolah : " />
+
+    <TextView
+        android:id="@+id/txtTmpLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Tempat Lahir : " />
+
+    <TextView
+        android:id="@+id/txtTglLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Tanggal Lahir : " />
+
+</LinearLayout>
